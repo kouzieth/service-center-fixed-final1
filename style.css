@@ -1,16 +1,10 @@
-body {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    font-family: Arial;
-    padding: 50px;
-    text-align: center;
-}
-
-.container {
-    background: white;
-    color: black;
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 500px;
-    margin: 0 auto;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TEST CSS - Jika background BIRU, berhasil!</h1>
+</body>
+</html>
