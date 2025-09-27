@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Center Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-tools"></i>
+                <span>ServiceCenter</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Service Center</span> Premium
+                </h1>
+                <p class="hero-description">
+                    Layanan servis profesional untuk semua jenis perangkat elektronik. 
+                    Teknisi berpengalaman siap membantu 24/7.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Form Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Form Permintaan Service</h2>
+                <p>Isi form berikut untuk memulai proses servis perangkat Anda</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="serviceForm" class="service-form">
+                    <div class="form-group">
+                        <label for="name">
+                            <i class="fas fa-user"></i>
+                            Nama Lengkap
+                        </label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">
+                            <i class="fas fa-phone"></i>
+                            Nomor WhatsApp
+                        </label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="device">
+                            <i class="fas fa-laptop"></i>
+                            Jenis Perangkat
+                        </label>
+                        <select id="device" name="device" required>
+                            <option value="">Pilih perangkat</option>
+                            <option value="Laptop">Laptop/Notebook</option>
+                            <option value="HP">Smartphone</option>
+                            <option value="Tablet">Tablet</option>
+                            <option value="PC">Komputer PC</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="problem">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Keluhan/Kerusakan
+                        </label>
+                        <textarea id="problem" name="problem" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Permintaan Service
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+  </html>
